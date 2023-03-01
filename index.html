@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="index.css" />
+         <!-- LINK BOOTSTRAP-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+         <!-- LINK FONTS-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+         <!-- LINK ICONOS-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+         <!-- FAVICON (como .ico en directorio css)-->
+        <link rel="icon" type="image/x-icon" href="css/work-tools-crossed_icon-icons.com_68107.ico">
+</head>
+        <title> CV Dale Smith </title>
+
+</head>       
+
+<body>
+    
+  <div class="container mt-4  bg-primary text-white rounded">   
+      <h1 id="encabezado"> Curriculum Vitae </h1>
+      <h1 id="encabezado"> DALE SMITH </h1>
+      <div id="foto_perfil">
+            <img  src="https://randomuser.me/api/portraits/men/41.jpg" alt="NO SE CARGO LA IMAGEN"
+             style="border: 8px solid gray" 
+             height="160px" width="160px" 
+             />
+       </div>
+  </div>
+ 
+    
+  <div class="container mt-3">
+         
+      <div class="btn-group" >
+            
+            <a id="dat" href="#list_datos" type="button" class="btn btn-primary" >Datos Personales</a>
+            <a id="conoc" href="#list_conocimientos" type="button" class="btn btn-secondary" >Conocimientos</a>
+            <a id="exp" href="#list_experiencia" type="button" class="btn btn-primary" >Experiencia Laboral</a>
+      </div> 
+
+      <div class="mt-4 p-5 bg-primary text-white rounded">
+        <h1><i class="fa fa-address-card-o" style="font-size:48px;"></i>  Datos Personales</h1>   
+          <ul id="list_datos">
+            <li>Edad  :  47 años</li> 
+            <li>Dirección : Pueyrredon 7600</li>
+            <li>E-Mail : dalesmith47@ticmas.com.ar </li>
+            <li>Disponibilidad Horaria : Full Time </li>
+          </ul>
+       </div>
+
+      <div class="mt-4 p-5 bg-primary text-white rounded">
+        <h1><i class="fa fa-graduation-cap" style="font-size:48px"></i> Conocimientos</h1> 
+          <ul id="list_conocimientos">
+            <li>Univercitarios : Ingeniería en sistemas en UNC ( incompletos hasta 3er año ) </li> 
+            <li>Programacion Full Stack en Academias Ticmas</li>
+            <li>Ingles Técnico en Academias Lenguas Vivas</li>
+          </ul>
+          <div class="container mt-3" >
+            <button id ="otros_cono" type="button" class="btn btn-secondary" data-bs-toggle="collapse" data-bs-target="#info_cono">Otros Conocimientos</button>
+               <div id="info_cono" class="collapse">
+                   * Programacion imperativa : C/C++, Pascal<br>
+                   * Manejo de repositorios / Git / GitHub<br>
+                   * Idioma portugués básico.<br>
+                </div>
+          </div>
+
+      </div>
+
+      <div class="mt-4 p-5 bg-primary text-white rounded">
+          <h1><i class="fa fa-suitcase" style="font-size:48px;"></i>  Experiencia Laboral</h1> 
+            <ul id="list_experiencia">
+              <li>2000 - 2004 : Desarrollo freelance de proyectos en C++ </li> 
+              <li>2005 - 2016 : Implementación de soluciones de hardware empresarial</li>
+              <li>2017 - actualidad : Desarrollo de páginas Web</li>
+            </ul>
+            <div class="container mt-3" >
+              <button id ="referencias" type="button" class="btn btn-secondary" data-bs-toggle="collapse" data-bs-target="#info_refe">Referencias</button>
+                 <div id="info_refe" class="collapse">
+                     ICP Computación : Juan Peréz (gerente comercial) - cel : 11 678 1234<br>
+                     Globant : Pedro Fernández (recursos humanos) - cel : 223 678 123 <br>
+                  </div>
+            </div>
+      </div>
+  </div>
+
+  <script src="index.js"></script>
+  
+  <div class="container mt-3"></div>
+
+  <div class="container mt-3" id ="bot_contacto" >
+       <button  type="button" class="btn btn-primary" data-bs-toggle="collapse" 
+                data-bs-target="#info">Contacto <i class="fa fa-envelope"></i>
+       </button>
+       <div id="info" class="collapse">
+        <i class="fa fa-at" style="font-size:24px"></i> : dalesmith47@ticmas.com.ar<br>
+        <i class="fa fa-phone-square" style="font-size:24px"></i> : 223 6 223223<br>
+        <i class="fa fa-linkedin-square" style="font-size:24px" ></i> : Dale Smith <br>
+        <i class="fa fa-instagram" style="font-size:24px" ></i> : @DaleSmith<br>
+        <i class="fa fa-twitter-square" style="font-size:24px" ></i> : @Dale47Tweet <br>
+       </div>
+  </div>
+
+  <div class="container mt-3"></div>
+</body>
+</html>

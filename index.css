@@ -1,0 +1,23 @@
+#encabezado {  
+    text-align:center;
+    font-family: "Trirong", serif;
+    font-size: 60px;
+        
+}
+
+#foto_perfil { 
+    text-align:center;
+    padding-bottom: 50px;
+}
+
+#bot_contacto {
+    text-align:center;
+    font-size: 20px;
+}
+
+#info {
+    text-align:center;
+    font-family: 'Arial', cursive;
+    color: blue;
+    
+}
